@@ -7,6 +7,9 @@
 
 set -uo pipefail
 
+echo "[CI DEMONSTRATION] Intentional failure triggered for pipeline verification" >&2
+exit 1
+
 ERRORS=0
 
 echo "================================================================="
