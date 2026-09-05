@@ -14,6 +14,7 @@ RED='\033[0;31m'
 BLUE='\033[0;34m'
 BOLD='\033[1m'
 NC='\033[0m'
+YELLOW='\033[1;33m'
 
 pass_check() {
     local points="$1"
