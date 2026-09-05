@@ -1,0 +1,14 @@
+# ==============================================================================
+# compose.yaml - Docker Compose configuration for DevOps Tool
+# Part of DevOps Assignment 3: CI/CD Pipeline with GitHub Actions
+# ==============================================================================
+
+services:
+  devops-tool:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: devops-tool:latest
+    container_name: devops-ci-tool
+    stdin_open: true
+    tty: true

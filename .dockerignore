@@ -1,0 +1,19 @@
+# Version control and CI
+.git
+.gitignore
+.github
+
+# Scripts and tests not needed in image
+scripts/
+tests/
+grade.sh
+README.md
+
+# Logs and temporary files
+*.log
+logs/
+*.swp
+*.tmp
+*~
+.DS_Store
+Thumbs.db
